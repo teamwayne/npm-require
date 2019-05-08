@@ -1,0 +1,21 @@
+{
+  "name": "local-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.js",
+    "build": "parcel build index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iag-module1": "file:iag-module1",
+    "iag-module2": "file:iag-module2",
+    "iag-module3": "file:iag-module3",
+    "iag-module4": "git+https://github.com/teamwayne/iag-module4.git"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
