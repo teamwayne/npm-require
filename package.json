@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "iag-dstream": "git+ssh://git@chuck.auiag.corp:7999/peng/iag-dstream-npm.git#master",
     "iag-module1": "file:iag-module1",
     "iag-module2": "file:iag-module2",
     "iag-module3": "file:iag-module3",

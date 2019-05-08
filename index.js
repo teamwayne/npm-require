@@ -3,8 +3,10 @@ const iagModuleOne = require('iag-module1');
 const iagModuleTwo = require('iag-module2');
 const iagModuleThree = require('iag-module3');
 const iagModuleFour = require('iag-module4');
+const dstream = require('iag-dstream');
 
 console.log(iagModuleOne(config));
 console.log(iagModuleTwo());
 iagModuleThree(config);
 console.log(iagModuleFour());
+dstream();
